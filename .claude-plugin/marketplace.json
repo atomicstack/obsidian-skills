@@ -6,10 +6,29 @@
   },
   "plugins": [
     {
-      "name": "obsidian",
-      "source": "./",
-      "description": "Claude Skills for Obsidian",
-      "version": "1.0.1"
+      "name": "defuddle",
+      "description": "Extract clean markdown from web pages using Defuddle CLI",
+      "source": "./skills/defuddle"
+    },
+    {
+      "name": "json-canvas",
+      "description": "Create and edit JSON Canvas files (.canvas)",
+      "source": "./skills/json-canvas"
+    },
+    {
+      "name": "obsidian-bases",
+      "description": "Create and edit Obsidian Bases (.base files)",
+      "source": "./skills/obsidian-bases"
+    },
+    {
+      "name": "obsidian-cli",
+      "description": "Interact with Obsidian vaults using the CLI",
+      "source": "./skills/obsidian-cli"
+    },
+    {
+      "name": "obsidian-markdown",
+      "description": "Create and edit Obsidian Flavored Markdown",
+      "source": "./skills/obsidian-markdown"
     }
   ]
 }
